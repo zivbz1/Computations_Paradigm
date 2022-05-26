@@ -1,0 +1,33 @@
+{
+  "levels": [
+    {
+      "cues": [
+        { "r": 100, "p": 0.2, "i": 0 },
+        { "r": 100, "p": 0.4, "i": 1 },
+        { "r": 100, "p": 0.6, "i": 2 },
+        { "r": 100, "p": 0.8, "i": 3 },
+        { "r": 100, "p": 1.0, "i": 4 }
+      ],
+      "appearances": [0],
+      "level_uri": "static/levels/2.json",
+      "always_run": true
+    },
+    {
+      "cues": [
+        { "r": -100, "p": 0.2, "i": 5 },
+        { "r": -100, "p": 0.4, "i": 6 },
+        { "r": -100, "p": 0.6, "i": 7 },
+        { "r": -100, "p": 0.8, "i": 8 },
+        { "r": -100, "p": 1.0, "i": 9 }
+      ],
+      "appearances": [0, 1, 0, 1, 0, 1, 0, 1, 0, 1],
+      "level_uri": "static/levels/50.json",
+      "always_run": true
+    }
+  ],
+  "randomize_order": false,
+  "expInstructions": [
+    "In the upcoming levels, you will walk and passively encounter different objects and observe different outcomes related to those objects. Additionally, you wil be asked to rank the likelihood of a specific object being associated with reward or loss, and your degree of confidence in your ranking.",
+    "The first level will include only objects from which you can gain (or not gain) virtual coins. The second part will include only objects from which you can only lose (or not lose) virtual coins. In ranking an object's likelihood for an outcome, consider only whether or not you will receive SOMETHING (+100 or -100), or NOTHING (+0)."
+  ]
+}
